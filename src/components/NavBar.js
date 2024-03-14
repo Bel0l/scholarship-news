@@ -76,6 +76,12 @@ const NavBar=()=> {
                   Notifications
                 </a>
               </li>
+              
+              <li className="nav-item">
+                <a className="nav-link" href="/Scholarships">
+                  Scholarships
+                </a>
+              </li>
 
             </ul>
           </div>

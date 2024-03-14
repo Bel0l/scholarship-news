@@ -9,6 +9,7 @@ import {
 import News from './components/News';
 import GuestPostForm from './components/GuestPostForm';
 import Footer from './components/Footer';
+import Scholarships from './components/Scholarships';
 
 
 
@@ -69,7 +70,9 @@ const App = () => {
 <Route
             path="/guest" element={<GuestPostForm/>}
 ></Route>
-
+<Route
+            path="/Scholarships" element={<Scholarships/>}
+></Route>
         </Routes>
 <Footer/>
       </div>

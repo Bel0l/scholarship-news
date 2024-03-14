@@ -10,6 +10,7 @@ import News from './components/News';
 import GuestPostForm from './components/GuestPostForm';
 import Footer from './components/Footer';
 import Scholarships from './components/Scholarships';
+import Contact from './components/Contact';
 
 
 
@@ -65,6 +66,11 @@ const App = () => {
           <Route
             path="/technology"
             element={<News key="technology" pageSize={5} country="in" category="technology" />}
+          ></Route>
+
+<Route
+            path="/contact"
+            element={<Contact/>}
           ></Route>
 
 <Route
